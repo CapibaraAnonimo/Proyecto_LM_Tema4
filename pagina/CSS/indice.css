@@ -1,0 +1,23 @@
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #284b5b;
+    color: white;
+    font-size: 30px;
+  }
+
+  .column-1 {
+    width: auto;
+  }
+  .column-2 {
+    float: right;
+    width: 300px;
+  }
+
+  
+  /* Clear floats after the columns */
+  .content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
