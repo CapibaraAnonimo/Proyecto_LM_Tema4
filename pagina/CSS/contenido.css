@@ -1,0 +1,26 @@
+.imgSipnosis{
+    display:block;
+    margin:auto;
+        
+}
+
+.imgObras{
+    display:block;
+    margin:auto;
+}
+
+.imgTramas{
+    display:block;
+    margin:auto;
+}
+
+.contenedor1{
+    border: 1px solid blue;
+    background-color: antiquewhite;
+    position: static;
+}
+
+img{
+    position: static;
+    float: right;
+}
