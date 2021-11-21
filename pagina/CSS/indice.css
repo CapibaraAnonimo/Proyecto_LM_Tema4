@@ -1,10 +1,28 @@
-.header {
-    padding: 30px;
-    text-align: center;
-    background: #284b5b;
-    color: white;
-    font-size: 30px;
-  }
+.header{
+  padding: 10px;
+  text-align: center;
+  background-color: brown;
+}
+div h1{
+  color: whitesmoke;
+  font-size: 40px;
+  font-family: cursive;
+  width: 100%;
+  text-transform: uppercase;
+  border-style:solid;
+  border-radius: 2em;
+  border-color: cyan;
+  
+}
+.imagenes{
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  background-position: center;
+  border-style:dotted;
+  background-color: brown;
+  display: auto;
+}
 
   .column-1 {
     width: auto;
