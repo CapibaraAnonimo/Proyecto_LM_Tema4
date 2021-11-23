@@ -4,11 +4,15 @@ body{
 footer{
     background-color: #f4f4f4;
     margin: auto;
-    width: 85%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
     color: #5a5a5a;
+}
+.divfoot{
+    padding-left: 6%;
+    padding-right: 6%;
 }
 .portada{
     display: flex;
