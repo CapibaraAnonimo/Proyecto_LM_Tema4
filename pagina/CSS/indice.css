@@ -1,41 +1,55 @@
-.header{
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../imagenes/indice/fondo-body.gif);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+.Header-Indice{
   padding: 10px;
   text-align: center;
-  background-color: brown;
+  border-radius: 4%;
+  width: auto;
+  background-image: url(../imagenes/indice/anime-asthetic.gif);
+  background-repeat: no-repeat;
+  display: auto;
+  background-size: 100%;
+  background-position:center;
 }
 div h1{
   color: whitesmoke;
-  font-size: 40px;
+  font-size: 50px;
   font-family: cursive;
   width: 100%;
   text-transform: uppercase;
-  border-style:solid;
-  border-radius: 2em;
-  border-color: cyan;
-  
 }
-.imagenes{
+.GeneralIndice{
+  width: 100%;
+  background-color: transparent;
+}
+.IndiceImagenes{
   margin: 1em;
   padding: 1em;
   text-align: center;
   background-position: center;
-  border-style:dotted;
+  border-style:double;
   background-color: brown;
   display: auto;
+  width: 95%;
+  float: center;
 }
-
-  .column-1 {
-    width: auto;
-  }
-  .column-2 {
-    float: right;
-    width: 300px;
-  }
-
-  
-  /* Clear floats after the columns */
-  .content:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.column-1 {
+  width: 83%;
+  float: left;
+  background-color: transparent;
+}
+nav .column-2 {
+  float: right; 
+  text-align: right;
+  background-color: white;
+  width: 15%;
+  background-color: lawngreen;
+}
