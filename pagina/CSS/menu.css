@@ -1,12 +1,24 @@
 body{
     font-family: sans-serif;
-    background-color: antiquewhite;
+    background-image: url(../imagenes/contenidopaguinas/cerezo.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
 }
 
 .header{
     padding: 10px;
     text-align: center;
-    background-color: brown;
+    border-radius: 4%;
+    width: auto;
+    background-image: url(../imagenes/indice/anime-asthetic.gif);
+    background-repeat: no-repeat;
+    display: auto;
+    background-size: 100%;
+    background-position: center;
+    color: white;
   }
 
 .horizontalMenu{
@@ -14,7 +26,7 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
-    background:black;
+    background:#284b5b;
     line-height: 50px;
 }
 
@@ -32,7 +44,7 @@ body{
 }
 
 .cambio:hover{
-    background:darkred;
+    background:antiquewhite;
     color:black;
 }
 
@@ -58,13 +70,32 @@ div h1{
     display: auto;
   }
 
-  .column-1 {
-    width: auto;
+  .column-0{
+    position: absolute;
+    float: left;
+    text-align: left;
+    left: 10px;
+    background-color:transparent;
+    height: 2790px;
+    width: 100px;
   }
 
-  .column-2 {
+  .column-1 {
+    width: 100%%;
+    margin-left: 120px;
+    margin-right: 120px;
+    float: center;
+    background-color: antiquewhite;
+  }
+
+  nav .column-2 {
+    position: absolute;
     float: right;
-    width: 300px;
+    text-align: right;
+    right: 10px;
+    top: 250px;
+    background-color:transparent;
+    width: 50px;
   }
 
   .content:after {
