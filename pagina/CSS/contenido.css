@@ -1,26 +1,32 @@
-.imgSipnosis{
-    display:block;
-    margin:auto;
-        
-}
-
-.imgObras{
-    display:block;
-    margin:auto;
-}
-
-.imgTramas{
-    display:block;
-    margin:auto;
-}
-
-.contenedor1{
-    border: 1px solid blue;
+body{
+    font-family: sans-serif;
     background-color: antiquewhite;
-    position: static;
 }
 
-img{
-    position: static;
-    float: right;
+.horizontalMenu{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background:black;
+    line-height: 50px;
 }
+
+.color{
+
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cambio{
+    text-decoration: none;
+    display: block;
+    color:white;
+}
+
+.cambio:hover{
+    background:darkred;
+    color:black;
+}
+
