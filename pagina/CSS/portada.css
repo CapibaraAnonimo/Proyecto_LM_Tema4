@@ -43,3 +43,14 @@ footer{
 .tituloFooter{
     color: #464646;
 }
+.contenedorCarrusel{
+    display: flex;
+    flex-direction: column;
+}
+.carrusel{
+    display: flex;
+    flex-direction: row;
+}
+.cambioCarrusel{
+    width: 20%;
+}
