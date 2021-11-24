@@ -104,6 +104,10 @@ div h1{
     clear: both;
   }
 
+  .enlace{
+    color: white;
+  }
+
 footer {
     background-color: #f4f4f4;
     margin: auto;
