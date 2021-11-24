@@ -7,6 +7,71 @@ body{
     background-size: cover;
     background-color: #999;
 }
+footer{
+    background-color: #f4f4f4;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #5a5a5a;
+}
+a{
+    text-decoration: none;
+}
+.divfoot{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.portada{
+    display: flex;
+    background-image: url(../imagenes/portada/portada.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 672px;
+    margin: auto;
+}
+.nombrePortada{
+    margin: inherit;
+    color: white;
+    text-shadow: 3px 0px 0px black,
+    -3px 0px 0px black,
+    0px 3px 0px black,
+    0px -3px 0px black,
+    2px 0px 0px black,
+    -2px 0px 0px black,
+    0px 2px 0px black,
+    0px -2px 0px black;
+    font-size: 175px;
+
+}
+.enlacePortada{
+    color: inherit;
+}
+.tituloFooter{
+    color: #464646;
+}
+.contenedorCarrusel{
+    display: flex;
+    flex-direction: column;
+}
+.carrusel{
+    display: flex;
+    flex-direction: row;
+}
+.cambioCarrusel{
+    width: 20%;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(../imagenes/contenidopaguinas/cerezo.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
 
 .header{
     padding: 10px;
