@@ -181,7 +181,6 @@ body{
   }
   .General-Indice {
     width: 100%;
-    padding: 1em;
   }
   .column-imagenes{
     float: left;
@@ -191,9 +190,12 @@ body{
   .IndiceImagenes{
     width: 100%;
     text-align: center;
+    padding: 2em;
   }
   aside #columnaAnuncios-2{
     text-align: right;
     float: right;
     width: 14%;
+    flex: content;
+    padding: 2em;
   }
