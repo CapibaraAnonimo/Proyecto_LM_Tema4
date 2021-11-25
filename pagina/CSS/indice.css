@@ -1,34 +1,30 @@
 *{
   box-sizing: border-box;
 }
-body{
-  background-image: url(../imagenes/indice/fondo-body.gif);
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-
-
 .Header-Indice{
   padding: 10px;
-  text-align: center;
   border-radius: 4%;
-  width: auto;
   background-image: url(../imagenes/indice/anime-asthetic.gif);
   background-repeat: no-repeat;
-  display: auto;
   background-size: 100%;
   background-position:center;
-}
-div h1{
-  color: whitesmoke;
-  font-size: 50px;
-  font-family: cursive;
   width: 100%;
-  text-transform: uppercase;
+}
+.LetraIndice{
+  text-align: center;
+  flex: content;
+  font-family: cursive;
+  font-size: 30px;
+  color: antiquewhite;
+  font-style: italic;
+  font-variant: small-caps;
+  text-shadow: 6px 6px 6px red;
 }
 .GeneralIndice{
   width: 100%;
   background-color: transparent;
+  margin: auto;
+  padding: 0em;
 }
 .IndiceImagenes{
   margin: 1em;
@@ -37,19 +33,19 @@ div h1{
   background-position: center;
   border-style:double;
   background-color: brown;
-  display: auto;
-  width: 95%;
-  float: center;
+  width: 100%;
 }
 .column-1 {
-  width: 83%;
+  width: 85%;
   float: left;
   background-color: transparent;
+  flex: auto;
+  margin: auto;
 }
 nav .column-2 {
   float: right; 
-  text-align: right;
-  background-color: white;
-  width: 15%;
-  background-color: lawngreen;
+  background-color: transparent;
+  width: 14%;
+  flex: content;
+  margin-top: 1em;
 }
