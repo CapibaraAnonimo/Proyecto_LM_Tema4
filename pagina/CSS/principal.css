@@ -46,13 +46,7 @@ a{
 
 }
 .enlacePortada{
-    display: block;
-    width: 1200px;
-    height: 672px;
-    margin: auto;
-}
-.enlaceFooter{
-  color: inherit;
+    color: inherit;
 }
 .tituloFooter{
     color: #464646;
@@ -60,26 +54,14 @@ a{
 .contenedorCarrusel{
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 .carrusel{
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
-.cambioCarruselSiguiente{
+.cambioCarrusel{
     width: 10%;
     margin: auto;
-}
-.cambioCarruselAnterior{
-    width: 10%;
-    margin: auto;
-}
-.pieDeFoto{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
 }
 
 .imagenCarrusel{
@@ -197,25 +179,21 @@ body{
     font-variant: small-caps;
     text-shadow: 6px 6px 6px red;
   }
-  .GeneralIndice{
+  .General-Indice {
     width: 100%;
-    background-color: transparent;
-    margin: auto;
-    padding: 0em;
+    padding: 1em;
+  }
+  .column-imagenes{
+    float: left;
+    flex: auto;
+    width: 86%;
   }
   .IndiceImagenes{
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
-    background-position: center;
-    border-style:double;
-    background-color: brown;
     width: 100%;
+    text-align: center;
   }
-  nav .column-2 {
-    float: right; 
-    background-color: transparent;
+  aside #columnaAnuncios-2{
+    text-align: right;
+    float: right;
     width: 14%;
-    flex: content;
-    margin-top: 1em;
   }
