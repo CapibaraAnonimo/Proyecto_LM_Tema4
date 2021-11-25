@@ -46,7 +46,13 @@ a{
 
 }
 .enlacePortada{
-    color: inherit;
+    display: block;
+    width: 1200px;
+    height: 672px;
+    margin: auto;
+}
+.enlaceFooter{
+  color: inherit;
 }
 .tituloFooter{
     color: #464646;
@@ -54,6 +60,7 @@ a{
 .contenedorCarrusel{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .carrusel{
     display: flex;
