@@ -58,10 +58,21 @@ a{
 .carrusel{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
-.cambioCarrusel{
+.cambioCarruselSiguiente{
     width: 10%;
     margin: auto;
+}
+.cambioCarruselAnterior{
+    width: 10%;
+    margin: auto;
+}
+.pieDeFoto{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
 }
 
 .imagenCarrusel{
