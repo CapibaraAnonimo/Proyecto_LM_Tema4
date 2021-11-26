@@ -1,216 +1,210 @@
 body{
-    font-family: sans-serif;
-    background-image: url(../imagenes/contenidopaguinas/cerezo.gif);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #999;
+  font-family: sans-serif;
+  background-image: url(../imagenes/contenidopaguinas/cerezo.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
 }
 footer{
-    background-color: #f4f4f4;
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    color: #5a5a5a;
+  background-color: #f4f4f4;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: #5a5a5a;
 }
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 .divfoot{
-    padding-left: 6%;
-    padding-right: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 .portada{
-    display: flex;
-    background-image: url(../imagenes/portada/portada.jpg);
-    background-repeat: no-repeat;
-    width: 1200px;
-    height: 672px;
-    margin: auto;
+  display: flex;
+  background-image: url(../imagenes/portada/portada.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 672px;
+  margin: auto;
 }
 .nombrePortada{
-    margin: inherit;
-    color: white;
-    text-shadow: 3px 0px 0px black,
-    -3px 0px 0px black,
-    0px 3px 0px black,
-    0px -3px 0px black,
-    2px 0px 0px black,
-    -2px 0px 0px black,
-    0px 2px 0px black,
-    0px -2px 0px black;
-    font-size: 175px;
+  margin: inherit;
+  color: white;
+  text-shadow: 3px 0px 0px black,
+  -3px 0px 0px black,
+  0px 3px 0px black,
+  0px -3px 0px black,
+  2px 0px 0px black,
+  -2px 0px 0px black,
+  0px 2px 0px black,
+  0px -2px 0px black;
+  font-size: 175px;
 
 }
 .enlacePortada{
-  margin: auto;
-  display: block;
-  width: 1200px;
-  height: 672px;
-    color: inherit;
-}
-.enlaceFooter{
   color: inherit;
 }
 .tituloFooter{
-    color: #464646;
+  color: #464646;
 }
 .contenedorCarrusel{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .carrusel{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-.cambioCarruselAnterior{
-    width: 10%;
-    margin: auto;
-}
-.cambioCarruselSiguiente{
+.cambioCarrusel{
   width: 10%;
   margin: auto;
 }
-.pieDeFoto{
-  text-align: center;
-  font-size: 30px;
-}
 
 .imagenCarrusel{
-    width: 80%;
+  width: 80%;
 }
 
 body{
-    font-family: sans-serif;
-    background-image: url(../imagenes/contenidopaguinas/cerezo.gif);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #999;
+  font-family: sans-serif;
+  background-image: url(../imagenes/contenidopaguinas/cerezo.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
 }
 
 .header{
-    padding: 10px;
-    text-align: center;
-    border-radius: 4%;
-    width: auto;
-    background-image: url(../imagenes/contenidopaguinas/lluvia2.gif);
-    background-repeat: no-repeat;
-    display: auto;
-    background-size: 100%;
-    background-position: center;
-    color: white;
-  }
+  padding: 10px;
+  text-align: center;
+  border-radius: 4%;
+  width: auto;
+  background-image: url(../imagenes/contenidopaguinas/lluvia2.gif);
+  background-repeat: no-repeat;
+  display: auto;
+  background-size: 100%;
+  background-position: center;
+  color: white;
+}
 
 .horizontalMenu{
 
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background:#284b5b;
-    line-height: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background:#284b5b;
+  line-height: 50px;
 }
 
 .color{
 
-    width: 100px;
-    display: inline-block;
-    text-align: center;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
 }
 
 .cambio{
-    text-decoration: none;
-    display: block;
-    color:white;
+  text-decoration: none;
+  display: block;
+  color:white;
 }
 
 .cambio:hover{
-    background:antiquewhite;
-    color:black;
+  background:antiquewhite;
+  color:black;
 }
 
-  .imagenes{
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
-    background-position: center;
-    border-style:dotted;
-    background-color: brown;
-    display: auto;
-  }
+.imagenes{
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  background-position: center;
+  border-style:dotted;
+  background-color: brown;
+  display: auto;
+}
 
-  .column-0{
-    position: absolute;
-    float: left;
-    text-align: left;
-    left: 10px;
-    background-color:transparent;
-    height: 2790px;
-    width: 100px;
-  }
+.column-0{
+  position: absolute;
+  float: left;
+  text-align: left;
+  left: 10px;
+  background-color:transparent;
+  height: 2790px;
+  width: 100px;
+}
 
-  .column-1 {
-    width: 100%;
-    margin-left: 120px;
-    margin-right: 120px;
-    float: center;
-    background-color: antiquewhite;
-  }
+.column-1 {
+  width: 100%;
+  margin-left: 120px;
+  margin-right: 120px;
+  float: center;
+  background-color: antiquewhite;
+}
 
-  .content:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+nav.column-2{
+  position: absolute;
+  float: right;
+  text-align: right;
+  right: 10px;
+  background-color:transparent;
+  width: 100px;
+}
 
-  .enlace{
-    color: white;
-  }
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.enlace{
+  color: white;
+}
 
 /*cosas que estaban en el indice*/
 *{
-    box-sizing: border-box;
-  }
-  .Header-Indice{
-    padding: 10px;
-    border-radius: 4%;
-    background-image: url(../imagenes/indice/anime-asthetic.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position:center;
-    width: 100%;
-  }
-  .LetraIndice{
-    text-align: center;
-    flex: content;
-    font-family: cursive;
-    font-size: 30px;
-    color: antiquewhite;
-    font-style: italic;
-    font-variant: small-caps;
-    text-shadow: 6px 6px 6px red;
-  }
-  .General-Indice {
-    width: 100%;
-  }
-  .column-imagenes{
-    float: left;
-    flex: auto;
-    width: 86%;
-  }
-  .IndiceImagenes{
-    width: 100%;
-    text-align: center;
-    padding: 2em;
-  }
-  aside #columnaAnuncios-2{
-    text-align: right;
-    float: right;
-    width: 14%;
-    flex: content;
-    padding: 2em;
-  }
+  box-sizing: border-box;
+}
+.Header-Indice{
+  padding: 10px;
+  border-radius: 4%;
+  background-image: url(../imagenes/indice/anime-asthetic.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  width: 100%;
+}
+.LetraIndice{
+  text-align: center;
+  flex: content;
+  font-family: cursive;
+  font-size: 30px;
+  color: antiquewhite;
+  font-style: italic;
+  font-variant: small-caps;
+  text-shadow: 6px 6px 6px red;
+}
+.General-Indice {
+  width: 100%;
+}
+.column-imagenes{
+  float: left;
+  flex: auto;
+  width: 86%;
+}
+.IndiceImagenes{
+  width: 100%;
+  text-align: center;
+  padding: 2em;
+}
+aside #columnaAnuncios-2{
+  text-align: right;
+  float: right;
+  width: 14%;
+  flex: content;
+  padding: 2em;
+}
