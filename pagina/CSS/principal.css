@@ -139,20 +139,16 @@ body{
 }
 
 .column-1 {
-  width: 100%;
   margin-left: 120px;
-  margin-right: 120px;
-  float: center;
+  margin-right: 300px;
   background-color: antiquewhite;
+  padding: 4 4 4 4px;
 }
 
-nav.column-2{
-  position: absolute;
-  float: right;
-  text-align: right;
-  right: 10px;
-  background-color:transparent;
-  width: 100px;
+.anuncios{
+ width: 120px;
+ float: right;
+ flex: content;
 }
 
 .content:after {
