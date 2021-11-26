@@ -46,7 +46,14 @@ a{
 
 }
 .enlacePortada{
+  margin: auto;
+  display: block;
+  width: 1200px;
+  height: 672px;
     color: inherit;
+}
+.enlaceFooter{
+  color: inherit;
 }
 .tituloFooter{
     color: #464646;
@@ -59,9 +66,17 @@ a{
     display: flex;
     flex-direction: row;
 }
-.cambioCarrusel{
+.cambioCarruselAnterior{
     width: 10%;
     margin: auto;
+}
+.cambioCarruselSiguiente{
+  width: 10%;
+  margin: auto;
+}
+.pieDeFoto{
+  text-align: center;
+  font-size: 30px;
 }
 
 .imagenCarrusel{
