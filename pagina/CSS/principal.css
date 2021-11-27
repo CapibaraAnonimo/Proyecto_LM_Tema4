@@ -204,3 +204,29 @@ aside #columnaAnuncios-2{
   flex: content;
   padding: 2em;
 }
+
+/*Plantilla para todas las páginas */
+.contenedor {
+  display: flex;
+  width: 100%;
+}
+
+nav .contenido {
+  display: flex;
+  width: 10%;
+  flex: 1;
+  order: 2;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  width: 70%;
+}
+
+aside {
+  display: flex;
+  width: 20%;
+  order: 3;
+  flex: 1;
+}
