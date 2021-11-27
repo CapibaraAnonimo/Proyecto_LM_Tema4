@@ -206,27 +206,46 @@ aside #columnaAnuncios-2{
 }
 
 /*Plantilla para todas las páginas */
+
 .contenedor {
   display: flex;
   width: 100%;
+  
 }
 
-nav .contenido {
+nav .contenido2 {
   display: flex;
   width: 10%;
   flex: 1;
   order: 2;
   flex-direction: column;
+  background-color: antiquewhite;
+  
 }
 
-main {
+.cuadro-medio {
   display: flex;
-  width: 70%;
+  width: 85%;
+  
 }
 
 aside {
   display: flex;
-  width: 20%;
   order: 3;
   flex: 1;
+  background-color: transparent;
+  width: auto;
+}
+.recuadro-menu{
+  background-color: antiquewhite;
+}
+.imagen-mipagina{
+  width: 100%;
+  flex-wrap: nowrap;
+  display: flex;
+  padding: 1em;
+  margin: 0 auto;
+}
+.enlace{
+  background-color: black;
 }
