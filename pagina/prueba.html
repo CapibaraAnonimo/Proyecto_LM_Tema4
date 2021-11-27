@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../pagina/CSS/principal.css">
+    <link rel="stylesheet" href="../pagina/CSS/menu.css">
+
+    <style>
+        .contenedor {
+            display: flex;
+            width: 100%;
+        }
+
+        nav .contenido {
+            display: flex;
+            width: 10%;
+            flex: 1;
+            order: 2;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            width: 70%;
+        }
+
+        aside {
+            display: flex;
+            width: 20%;
+            order: 3;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>PRRUEBA PLANTILLA PARA TODAS LAS PAGINAS</h1>
+        <p>Describiendo una obra maestra</p>
+    </div>
+    <nav>
+        <ul class="horizontalMenu">
+            <li class="color"><a class="cambio" href="./indice.html">Inicio</a></li>
+            <li class="color"><a class="cambio" href="./portada.html">Portada</a></li>
+            <li class="color"><a class="cambio" href="#Sipnosis">Sipnosis</a></li>
+            <li class="color"><a class="cambio" href="#AnimeyManga">Obras</a></li>
+            <li class="color"><a class="cambio" href="#Trama">Trama</a></li>
+            <li class="color"><a class="cambio" href="#Banda">Banda</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenedor">
+        <nav class="contenido-">
+            <p><a class="enlace" href="https://www3.animeflv.net/anime/hunter-x-hunter">Versión 1999</a></p>
+            <p><a class="enlace" href="https://www3.animeflv.net/anime/hunter-x-hunter-2011">Versión 2011</a></p>
+            <p><a class="enlace" href="https://lectormanga.com/library/manga/212/hunter-x-hunter">Manga Hunter x
+                    Hunter</a>
+            </p>
+        </nav>
+        <main>
+            <p>ESTE ES UN EJEMPLO</p>
+        </main>
+        <aside>
+            <h1>
+                <img src="../pagina/imagenes/indice/hbo-banner.jpg" width="100%">
+                <img src="../pagina/imagenes/indice/banner-gif.gif" width="100%">
+            </h1>
+        </aside>
+    </main>
+
+
+
+</body>
+
+</html>
