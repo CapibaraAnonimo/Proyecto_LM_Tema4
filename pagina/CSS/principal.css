@@ -47,6 +47,13 @@ a{
 }
 .enlacePortada{
   color: inherit;
+  display: block;
+  margin: auto;
+  width: 1200px;
+  height: 672px;
+}
+.enlaceFooter{
+  color: inherit;
 }
 .tituloFooter{
   color: #464646;
