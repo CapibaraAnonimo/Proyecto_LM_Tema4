@@ -192,33 +192,24 @@ aside #columnaAnuncios-2{
 .contenedor {
   display: flex;
   width: 100%;
-  
 }
 
-nav .contenido2 {
-  display: flex;
+nav.contenido2 {
   width: 10%;
-  flex: 1;
-  order: 2;
-  flex-direction: column;
-  background-color: antiquewhite;
-  text-align: left ;
-
+  padding: 10px;
 }
 
 .cuadro-medio {
   display: flex;
-  width: 80%;
-  margin-right: 30px;
-  
+  width: 75%;
+  padding: 10px;
 }
 
 aside {
   display: flex;
-  order: 3;
   flex: 1;
-  background-color: transparent;
   width: auto;
+  padding: 10px
 }
 .recuadro-menu{
   background-color: antiquewhite;
